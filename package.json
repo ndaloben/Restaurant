@@ -1,0 +1,57 @@
+{
+  "name": "adamur-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@mui/icons-material": "^5.11.0",
+    "@studio-freight/lenis": "^1.0.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-native-email-link": "^1.14.5",
+    "react-parallax": "^3.5.1",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.6.2",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "typewriter-effect": "^2.19.0",
+    "uikit-react": "^3.1.3",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 versions",
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 safari versions"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

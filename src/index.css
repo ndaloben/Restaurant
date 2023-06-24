@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+  ::-webkit-scrollbar-track {
+      background-color: #FCDDA5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background-color: orangered;
+      border: 3px solid #FCDDA5;
+      border-radius: 10px;
+  }
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  img {
+    width: 100%;
+  }
+  .section {
+    @apply container mx-auto pt-[8rem]
+    lg:px-8 px-4
+  }
+  .btn {
+    @apply rounded-t-[1rem] rounded-bl-[1rem]
+    bg-[darkorange] p-4 flex items-center gap-4 text-white text-[0.85rem]
+  }
+}
+
+/* .blur{
+  background: rgba(211, 31, 18, 0.801);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: -9;
+
+} */
+
+
